@@ -14,4 +14,4 @@ Membuat project dan mempelajari dasar-dasar Jetpack Compose
 
 ### Screenshot
 
-![Screenshot](Pertemuan1/Gambar1.png)
+![Gambar1](Pertemuan1/Gambar1.png)
