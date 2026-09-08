@@ -10,8 +10,8 @@
 
 ### Deskripsi tugas
 
-Membuat project dan dasar Compose
+Membuat project dan mempelajari dasar-dasar Jetpack Compose
 
 ### Screenshot
 
-![Screenshot](Pertemuan1/screenshot.png)
+![Screenshot](Pertemuan1/Gambar1.png)
