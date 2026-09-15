@@ -28,8 +28,12 @@ Mempelajari Material Design 3 serta penerapan komponen dan formulir interaktif p
 
 <table border="1">
   <tr>
-    <td><img src="Gambar2.png" width="250"></td>
-    <td><img src="Gambar3.png" width="250"></td>
+    <td align="center" width="50%">
+      <img src="Gambar2.png" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <img src="Gambar3.png" width="100%">
+    </td>
   </tr>
 </table>
 
@@ -37,7 +41,11 @@ Mempelajari Material Design 3 serta penerapan komponen dan formulir interaktif p
 
 <table border="1">
   <tr>
-    <td><img src="Gambar4.png" width="250"></td>
-    <td><img src="Gambar5.png" width="250"></td>
+    <td align="center" width="50%">
+      <img src="Gambar4.png" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <img src="Gambar5.png" width="100%">
+    </td>
   </tr>
 </table>
