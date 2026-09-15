@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.pemmob.nadine"
+    namespace = "com.pemmob.nadin"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.pemmob.nadine"
+        applicationId = "com.pemmob.nadin"
         minSdk = 29
         targetSdk = 37
         versionCode = 1
@@ -44,6 +44,13 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.navigation.runtime.ktx)
+
+    implementation("androidx.compose.material:material-icons-core")
+    implementation("androidx.compose.material:material-icons-extended")
+
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
