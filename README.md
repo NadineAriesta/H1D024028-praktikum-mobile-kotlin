@@ -119,3 +119,41 @@ Mempelajari pembuatan daftar dinamis menggunakan Lazy Layouts pada Jetpack Compo
   </tr>
 </table>
 
+
+## Display Pertemuan 4
+
+### Deskripsi Tugas
+
+Mempelajari alur kerja recomposition dan UI lifecycle dalam antarmuka deklaratif.
+
+☀️ **Mode Terang**
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="Gambar15.png" width="100%">
+    </td>
+    <td align="center" width="33%">
+      <img src="Gambar16.png" width="100%">
+    </td>
+    <td align="center" width="33%">
+      <img src="Gambar17.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+🌙 **Mode Gelap**
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="Gambar18.png" width="100%">
+    </td>
+    <td align="center" width="33%">
+      <img src="Gambar19.png" width="100%">
+    </td>
+    <td align="center" width="33%">
+      <img src="Gambar20.png" width="100%">
+    </td>
+  </tr>
+</table>
