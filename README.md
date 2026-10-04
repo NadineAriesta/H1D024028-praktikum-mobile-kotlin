@@ -157,3 +157,35 @@ Mempelajari alur kerja recomposition dan UI lifecycle dalam antarmuka deklaratif
     </td>
   </tr>
 </table>
+
+## Display Pertemuan 5
+
+### Deskripsi tugas
+
+Mempelajari konsep Networking & Architecture serta penerapan pengambilan dan pengolahan data JSON melalui web service API pada Jetpack Compose.
+
+☀️ **Mode Terang**
+
+<table border="1">
+  <tr>
+    <td align="center" width="50%">
+      <img src="Gambar21.png" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <img src="Gambar22.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+🌙 **Mode Gelap**
+
+<table border="1">
+  <tr>
+    <td align="center" width="50%">
+      <img src="Gambar23.png" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <img src="Gambar24.png" width="100%">
+    </td>
+  </tr>
+</table>

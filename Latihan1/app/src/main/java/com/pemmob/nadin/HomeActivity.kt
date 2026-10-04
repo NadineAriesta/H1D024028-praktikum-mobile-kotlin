@@ -1,22 +1,20 @@
 package com.pemmob.nadin
 
 import android.os.Bundle
-
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-
 import com.pemmob.nadin.ui.screen.DaftarProdukScreen
 import com.pemmob.nadin.ui.screen.DetailProductScreen
 import com.pemmob.nadin.ui.screen.HubungiKamiScreen
 import com.pemmob.nadin.ui.theme.JualanTheme
-
+import com.pemmob.nadin.ui.viewmodel.ProductViewModel
 
 class HomeActivity : ComponentActivity() {
 
@@ -29,17 +27,17 @@ class HomeActivity : ComponentActivity() {
             JualanTheme {
 
                 val navController = rememberNavController()
+                val productViewModel: ProductViewModel = viewModel()
 
                 NavHost(
                     navController = navController,
                     startDestination = "daftar_produk"
                 ) {
 
-                    composable(
-                        route = "daftar_produk"
-                    ) {
+                    composable(route = "daftar_produk") {
                         DaftarProdukScreen(
-                            navController = navController
+                            navController = navController,
+                            viewModel = productViewModel
                         )
                     }
 
@@ -58,7 +56,8 @@ class HomeActivity : ComponentActivity() {
 
                         DetailProductScreen(
                             productId = productId,
-                            navController = navController
+                            navController = navController,
+                            viewModel = productViewModel
                         )
                     }
 
